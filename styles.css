@@ -1,0 +1,115 @@
+body {
+    background-image: url('jashan.png');
+    background-repeat: no-repeat;
+    background-size: 50% auto; 
+    background-position: center 190px; 
+    color: rgb(76, 200, 175);
+    font-family: Arial, sans-serif;
+    margin: 0; 
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    text-align: center;
+    padding: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: black; 
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 8px; 
+    background-color: black; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.career-page {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .career-page h1 {
+    font-size: 2rem;
+    margin-top: 0;
+    color: #4477aa;
+  }
+  
+  .career-page h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: #333;
+  }
+  
+  .career-page ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .career-page li {
+    margin: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .career-page li:hover {
+    background-color: #eee;
+  }
+  
+  .career-page p {
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    color: #333;
+  }
+  
+  .career-page a {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    color: #fff;
+    background-color: #4477aa;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .career-page a:hover {
+    background-color: #335588;
+  }
